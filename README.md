@@ -13,4 +13,10 @@ What you'll need
 
 Run
 
+    mvn clean install
     mvn spring-boot:run
+    
+To call the get endpoint to bit coin data:
+
+http://localhost:8081/bitcoin
+
