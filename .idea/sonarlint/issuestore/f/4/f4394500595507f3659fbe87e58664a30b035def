@@ -1,0 +1,30 @@
+
+wsquid:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(”äº8Îñ‘ËÅ-
+Isquid:S1452("&Remove usage of generic wildcard type.(¦í¥³şÿÿÿÿ8Îñ‘ËÅ-
+wsquid:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ıê×Õ8Îñ‘ËÅ-
+Dsquid:S14522"&Remove usage of generic wildcard type.(°¯Ì8Îñ‘ËÅ-
+fsquid:S4488?"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(ŠÖ€“8Îñ‘ËÅ-
+Dsquid:S1452P"&Remove usage of generic wildcard type.(½ÈÑ±8Îñ‘ËÅ-
+ksquid:S4488'"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ö©Şúÿÿÿÿ8Îñ‘ËÅ-
+|squid:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(º—Şÿÿÿÿÿ8Îñ‘ËÅ-
+osquid:S1192+"LDefine a constant instead of duplicating this literal "ERROR: Id =" 3 times.(Õ¼®–úÿÿÿÿ8Îñ‘ËÅ-
+wsquid:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤Ï¬¬8Îñ‘ËÅ-
+wsquid:S2293_"YReplace the type specification in this constructor call with the diamond operator ("<>").(°‡ÕÚ8Îñ‘ËÅ-
+|squid:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õ¼®–úÿÿÿÿ8Îñ‘ËÅ-
+nsquid:S2133e"KRemove this object instantiation and use "RestfulController.class" instead.(ÓÑ´èûÿÿÿÿ8Îñ‘ËÅ-
+|squid:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÒ“şÿÿÿÿ8Îñ‘ËÅ-
+ksquid:S4488O"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(Ü’í*8Îñ‘ËÅ-
+fsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ä€¥¨8Îñ‘ËÅ-
+wsquid:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ•×ø8Îñ‘ËÅ-
+Isquid:S1452@"&Remove usage of generic wildcard type.(âú‚ıûÿÿÿÿ8Îñ‘ËÅ-
+|squid:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÒ“şÿÿÿÿ8Îñ‘ËÅ-
+V
+squid:S106n"9Replace this use of System.out or System.err by a logger.(ù§é8Îñ‘ËÅ-
+msquid:S44881"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(À©Á¼ÿÿÿÿÿ8Îñ‘ËÅ-
+fsquid:S4488b"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(÷…Ì¨8Îñ‘ËÅ-
+lsquid:S4488["NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(‚ªÀ’8Îñ‘ËÅ-
+vsquid:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(â¾8Îñ‘ËÅ-
+wsquid:S2293X"YReplace the type specification in this constructor call with the diamond operator ("<>").(°‡ÕÚ8Îñ‘ËÅ-
+V
+squid:S106j"9Replace this use of System.out or System.err by a logger.(¾è×8Îñ‘ËÅ-
+|squid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(¢æŸ³ÿÿÿÿÿ8Îñ‘ËÅ-
