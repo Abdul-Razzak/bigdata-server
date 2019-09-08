@@ -28,5 +28,10 @@ docker run -p 5000:8081 spring-server:latest
 
 The app should be deployed on port 5000
 
+
+Remove image command: 
+
+docker image rm spring-server:latest --force
+
 Follow instructions for docker setup on the website:
 https://www.callicoder.com/spring-boot-docker-example/
