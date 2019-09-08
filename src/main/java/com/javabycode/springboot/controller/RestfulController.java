@@ -1,11 +1,11 @@
 package com.javabycode.springboot.controller;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
+import java.io.*;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -98,17 +98,15 @@ public class RestfulController {
 	@RequestMapping(value = "/bitcoin", method = RequestMethod.GET)
 	public ResponseEntity<String> findBitcoin() throws IOException{
 		String fileName = "bitcoin.json";
-		ClassLoader classLoader = new RestfulController().getClass().getClassLoader();
-
-		File file = new File(classLoader.getResource(fileName).getFile());
-
-		//File is found
-		System.out.println("File Found : " + file.exists());
-
-		//Read File Content
-		String content = new String(Files.readAllBytes(file.toPath()));
-		System.out.println(content);
-		return new ResponseEntity<String>(content, HttpStatus.OK);
+		Resource resource = new ClassPathResource(fileName);
+		BufferedReader br = new BufferedReader(new InputStreamReader(resource.getInputStream()));
+		StringBuilder sb = new StringBuilder();
+		String line;
+		while ((line = br.readLine()) != null) {
+			sb.append(line + System.lineSeparator());
+		}
+		System.out.println(sb.toString());
+		return new ResponseEntity<String>(sb.toString(), HttpStatus.OK);
 	}
 
 }

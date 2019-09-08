@@ -20,3 +20,6 @@ To call the get endpoint to bit coin data:
 
 http://localhost:8081/bitcoin
 
+
+Follow instructions for docker setup on the website:
+https://www.callicoder.com/spring-boot-docker-example/
